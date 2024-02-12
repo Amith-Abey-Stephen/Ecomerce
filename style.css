@@ -19,8 +19,26 @@ nav a {
 nav a:last-child {
    margin-right: 0;  /* Remove margin from the last <a> tag */
 }
+#search{
+    border-radius: 100px;
+    justify-content: center;
+}
 
 .heading h1{
     text-align: center;
     font-size: 50px;
+    margin-top: 10px;
+}
+
+.content-nav{
+    background-color: rgb(209, 209, 209);
+    padding: 0px;
+    text-align: center;
+}
+
+.content-nav a{
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(52, 42, 165);
+     /* margin-right: 15px; Adjust the value as needed for the desired gap */
 }
