@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 body{
     background-color: antiquewhite;
     margin: 0;
@@ -15,7 +17,6 @@ nav img{
     display: block;
 }
 nav a {
-    
     text-decoration: none;
     font-size: 28px;
     color: brown;
@@ -47,4 +48,39 @@ nav a:last-child {
     height: 260px;
     width: 250px;
     background-color: aquamarine;
+}
+
+
+.end{
+    background:-webkit-linear-gradient(rgb(72,72,72),rgb(28,28,28));
+    
+}
+.end-logo img{
+    height:70px;
+    width: auto;
+    margin-left: 20px;
+    
+}
+
+
+.end-c{
+    display: flex;
+    margin-left: 25px;
+}
+i{ 
+    color: rgba(255, 170, 0, 0.4);
+    font-size: 3rem;
+}
+.end-call{
+    
+    color: #f0f8ff;
+}
+.end-call h4{
+    font-size: 25px;
+    margin-top: -8px;
+}
+
+.end-call p{
+    font-size: 15px;
+    margin-top: -0px;
 }
