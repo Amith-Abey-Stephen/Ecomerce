@@ -45,7 +45,7 @@ nav a:last-child {
     margin-left: 500px;
 }
 
-
+/* section */
 
 .content{
     margin-left: 30px;
@@ -80,6 +80,9 @@ nav a:last-child {
     padding-top: 0px;
 
 }
+
+
+/* section */
 .end{
     background:-webkit-linear-gradient(rgb(72,72,72),rgb(28,28,28));
     
@@ -90,7 +93,6 @@ nav a:last-child {
     margin-left: 30px;
     margin-top: 30px;
 }
-
 
 .end-c{
     display: flex;
@@ -120,6 +122,9 @@ i{
     margin-left: 20px;
 }
 
+
+
+/* Section */
 .tcontent{
     background-color: rgb(20, 142, 250);
 }
@@ -138,5 +143,5 @@ i{
 }
 
 .btext{
-    
+
 }
