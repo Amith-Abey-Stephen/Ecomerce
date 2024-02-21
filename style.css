@@ -128,7 +128,7 @@ i{
 }
 
 .bodycont {
-    background-color: rgb(208, 81, 12);
+    
     display: flex;
     flex-direction: row; /* Align items row-wise */
     justify-content: space-around;
@@ -136,16 +136,23 @@ i{
 }
 
 .box {
-    height: 400px;
-    width: 200px;
+    background-color: rgb(208, 81, 12);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
     margin-right: 20px; /* Add spacing between items */
 }
 
-.bimg {
-    height: 100px;
+.bimg  img{
+    height: 200px;
     width: 200px;
+    border-radius: 25px;
 }
 
 .btext {
     /* Add your styles for the text here */
+}
+
+.box:hover{
+    cursor: pointer;
 }
