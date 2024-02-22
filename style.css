@@ -122,9 +122,16 @@ i{
     margin-left: 20px;
 }
 
+.end-socials i:hover{
+    color: rgb(20, 142, 250);
+}
+
 
 .tcontent {
     background-color: rgb(20, 142, 250);
+    padding-bottom: 24px;
+    margin-bottom: 0;
+    overflow: hidden;
 }
 
 .bodycont {
@@ -132,6 +139,8 @@ i{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
     grid-gap:2rem;
+
+}
     
     
 .box {
@@ -149,7 +158,7 @@ i{
 }
 
 .btext {
-    /* Add your styles for the text here */
+   color: aqua; /* Add your styles for the text here */
 }
 
 .box:hover{
