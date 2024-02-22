@@ -129,12 +129,11 @@ i{
 
 .bodycont {
     
-    display: flex;
-    flex-direction: row; /* Align items row-wise */
-    justify-content: space-around;
-    padding-top: 25px;
-}
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
+    grid-gap:2rem;
+    
+    
 .box {
     background-color: rgb(208, 81, 12);
     border-radius: 10px;
