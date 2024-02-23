@@ -82,9 +82,89 @@ nav a:last-child {
 }
 
 
+/* Section */
+.tcontent {
+    background-color: rgb(20, 142, 250);
+    padding-bottom: 24px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.bodycont {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
+    grid-gap:2rem;
+
+}
+    
+    
+.box {
+    background-color: rgb(208, 81, 12);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px; /* Add spacing between items */
+}
+
+.bimg  img{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.btext {
+   color: aqua; /* Add your styles for the text here */
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* Section */
+.featured {
+    background-color: rgb(233, 239, 245);
+    padding-bottom: 24px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.fcont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
+    grid-gap:2rem;
+}
+    
+    
+.fbox {
+    background-color: rgb(12, 130, 208);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px; /* Add spacing between items */
+}
+
+.fbimg  img{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.fbtext {
+   color: aqua; /* Add your styles for the text here */
+}
+
+.fbox:hover{
+    cursor: pointer;
+}
+
 /* section */
 .end{
     background:-webkit-linear-gradient(rgb(72,72,72),rgb(28,28,28));
+    padding-top: 10px;
     
 }
 .end-logo img{
@@ -124,43 +204,4 @@ i{
 
 .end-socials i:hover{
     color: rgb(20, 142, 250);
-}
-
-
-.tcontent {
-    background-color: rgb(20, 142, 250);
-    padding-bottom: 24px;
-    margin-bottom: 0;
-    overflow: hidden;
-}
-
-.bodycont {
-    
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
-    grid-gap:2rem;
-
-}
-    
-    
-.box {
-    background-color: rgb(208, 81, 12);
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 10px;
-    margin-right: 20px; /* Add spacing between items */
-}
-
-.bimg  img{
-    height: 200px;
-    width: 200px;
-    border-radius: 25px;
-}
-
-.btext {
-   color: aqua; /* Add your styles for the text here */
-}
-
-.box:hover{
-    cursor: pointer;
 }
