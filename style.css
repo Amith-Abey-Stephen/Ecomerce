@@ -95,6 +95,7 @@ nav a:last-child {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
     grid-gap:2rem;
+    overflow: hidden;
 
 }
     
@@ -133,9 +134,11 @@ nav a:last-child {
 }
 
 .fcont {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
-    grid-gap:2rem;
+    display: flex;
+    gap: 80px;
+    justify-content : center;
+    padding-bottom: 40px;
+    align-items: center;
 }
     
     
@@ -160,6 +163,50 @@ nav a:last-child {
 .fbox:hover{
     cursor: pointer;
 }
+
+
+
+
+/* Section */
+.brand {
+    background-color: rgb(20, 142, 250);
+    padding-bottom: 24px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.ofbcont {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
+    grid-gap:2rem;
+
+}
+    
+    
+.ofbbox {
+    background-color: rgb(208, 81, 12);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px; /* Add spacing between items */
+}
+
+.ofbbimg  img{
+    height: 150px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.ofbbtext {
+   color: aqua; /* Add your styles for the text here */
+}
+
+.ofbbox:hover{
+    cursor: pointer;
+}
+
+
 
 /* section */
 .end{
