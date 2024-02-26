@@ -176,16 +176,14 @@ nav a:last-child {
 }
 
 .ofbcont {
-    
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
-    grid-gap:2rem;
-
+    grid-gap:2px;
 }
     
     
 .ofbbox {
-    background-color: rgb(208, 81, 12);
+    /* background-color: rgb(208, 81, 12); */
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 10px;
@@ -193,17 +191,20 @@ nav a:last-child {
 }
 
 .ofbbimg  img{
-    height: 150px;
-    width: 200px;
+    /* height: 150px; */
+    /* width: 200px; */
     border-radius: 25px;
 }
 
 .ofbbtext {
-   color: aqua; /* Add your styles for the text here */
+   color: rgb(22, 174, 22); /* Add your styles for the text here */
 }
 
 .ofbbox:hover{
     cursor: pointer;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px #888;
+    background-color:#888;
 }
 
 
