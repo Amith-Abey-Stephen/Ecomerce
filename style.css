@@ -167,6 +167,8 @@ nav a:last-child {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
     grid-gap:10px;
+
+    width:1550px;
 }
 .ofbbox {
     height: 150px;
@@ -180,7 +182,7 @@ nav a:last-child {
     border-radius: 25px;
 }
 .ofbbtext {
-   color: rgb(22, 174, 22); /* Add your styles for the text here */
+   color: rgb(255, 255, 255); /* Add your styles for the text here */
 }
 .ofbbox:hover{
     cursor: pointer;
