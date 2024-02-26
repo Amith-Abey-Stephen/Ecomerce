@@ -162,24 +162,21 @@ nav a:last-child {
 .brand {
     background-color: rgb(20, 142, 250);
     padding-bottom: 24px;
-    margin-bottom: 0;
-    overflow: hidden;
-}
-.ofbcont {
+    overflow: hidden; 
+
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
-    grid-gap:2px;
+    grid-gap:10px;
 }
 .ofbbox {
-    /* background-color: rgb(208, 81, 12); */
+    height: 150px;
+    width: 210px;
     border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 10px;
-    margin-right: 20px; /* Add spacing between items */
+    padding: 20px;  
 }
 .ofbbimg  img{
-    /* height: 150px; */
-    /* width: 200px; */
+    height: 150px;
+    width: 210px;
     border-radius: 25px;
 }
 .ofbbtext {
