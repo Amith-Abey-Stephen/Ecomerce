@@ -25,7 +25,6 @@ nav a {
     color: brown;
      margin-right: 15px; 
 }
-
 nav a:last-child {
    margin-right: 0;  /* Remove margin from the last <a> tag */
 }
@@ -33,20 +32,21 @@ nav a:last-child {
     border-radius: 100px;
     justify-content: center;
 }
-
 .heading h1{
     text-align: center;
     font-size: 50px;
     margin-top: 10px;
 }
-
 .heading h1 span{
     font-size: 20px;
     margin-left: 500px;
 }
 
-/* section */
 
+
+
+
+/* section */
 .content{
     margin-left: 30px;
     margin-right: 30px;
@@ -63,7 +63,6 @@ nav a:last-child {
     animation: slideRight 8s linear infinite; /* Adjust animation duration as needed */
     width: 100%;
 }
-
 .rect img{
     height: 240px;
     width: 250px;
@@ -78,8 +77,10 @@ nav a:last-child {
 } 
 .rect h4{
     padding-top: 0px;
-
 }
+
+
+
 
 
 /* Section */
@@ -89,7 +90,6 @@ nav a:last-child {
     margin-bottom: 0;
     overflow: hidden;
 }
-
 .bodycont {
     
     display: grid;
@@ -97,9 +97,7 @@ nav a:last-child {
     grid-gap:2rem;
     overflow: hidden;
 
-}
-    
-    
+}    
 .box {
     background-color: rgb(208, 81, 12);
     border-radius: 10px;
@@ -107,20 +105,18 @@ nav a:last-child {
     margin-bottom: 10px;
     margin-right: 20px; /* Add spacing between items */
 }
-
 .bimg  img{
     height: 200px;
     width: 200px;
     border-radius: 25px;
 }
-
 .btext {
    color: aqua; /* Add your styles for the text here */
 }
-
 .box:hover{
     cursor: pointer;
 }
+
 
 
 
@@ -132,16 +128,13 @@ nav a:last-child {
     margin-bottom: 0;
     overflow: hidden;
 }
-
 .fcont {
     display: flex;
     gap: 80px;
     justify-content : center;
     padding-bottom: 40px;
     align-items: center;
-}
-    
-    
+}  
 .fbox {
     background-color: rgb(12, 130, 208);
     border-radius: 10px;
@@ -149,20 +142,18 @@ nav a:last-child {
     margin-bottom: 10px;
     margin-right: 20px; /* Add spacing between items */
 }
-
 .fbimg  img{
     height: 200px;
     width: 200px;
     border-radius: 25px;
 }
-
 .fbtext {
    color: aqua; /* Add your styles for the text here */
 }
-
 .fbox:hover{
     cursor: pointer;
 }
+
 
 
 
@@ -174,14 +165,11 @@ nav a:last-child {
     margin-bottom: 0;
     overflow: hidden;
 }
-
 .ofbcont {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(min(15.28rem,100%),1fr));
     grid-gap:2px;
 }
-    
-    
 .ofbbox {
     /* background-color: rgb(208, 81, 12); */
     border-radius: 10px;
@@ -189,23 +177,22 @@ nav a:last-child {
     margin-bottom: 10px;
     margin-right: 20px; /* Add spacing between items */
 }
-
 .ofbbimg  img{
     /* height: 150px; */
     /* width: 200px; */
     border-radius: 25px;
 }
-
 .ofbbtext {
    color: rgb(22, 174, 22); /* Add your styles for the text here */
 }
-
 .ofbbox:hover{
     cursor: pointer;
     color: aliceblue;
     box-shadow: 5px 5px 10px #888;
     background-color:#888;
 }
+
+
 
 
 
